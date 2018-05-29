@@ -122,3 +122,44 @@ nav span {
   padding: 0px;
   margin-top: 10px;
 }
+
+/*Main third section*/
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  margin-top: 60px;
+  background-image: url("../images/img-locations-background.jpg");
+  align-items: center;
+}
+
+.locations-header {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+
+.locations-stores {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  margin: 0px 20px;
+  padding-top: 0px;
+}
+
+.store h3, p {
+  text-align: center;
+}
