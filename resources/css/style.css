@@ -132,21 +132,19 @@ nav span {
   height: 500px;
   margin-top: 60px;
   margin-bottom: 0px;
-    background-image: url("../images/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
   align-items: center;
 }
 
 .locations-header {
-  margin-top: 40px;
-  margin-bottom: 0px;
-  padding: 0px;
-}
+  margin-top: 30px;
 
+}
 
 .locations-stores {
   display: flex;
-  margin: 0px;
-  padding: 0px;
+  margin-top: -10px;
 
 }
 
@@ -155,13 +153,18 @@ nav span {
   flex-direction: column;
   background-color: black;
   width: 300px;
-  height: 300px;
+  height: 280px;
   opacity: 1;
   margin: 0px 20px;
-  padding-top: 0px;
 }
 
-.store h3, p {
+.store h3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.store p {
   text-align: center;
 }
 
@@ -172,12 +175,10 @@ nav span {
   flex-direction: column;
   align-items: center;
   height: 200px;
-
 }
 
 .contact h2 {
   margin: 10px;
-
 }
 
 .contact h5 {
